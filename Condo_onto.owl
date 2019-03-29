@@ -1,0 +1,741 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gabru/ontologies/2018/11/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gabru/ontologies/2018/11/untitled-ontology-7">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aldie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appliances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apt_britney_elyse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ashburn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balcony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baths"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bedrooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bristow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centreville"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clifton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Close_shopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electricity_Rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elevator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elevator_Access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gainesville"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garage_condo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heat_pump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herndon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jacuzzi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leesburg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manassas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Master_bedroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middleburg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refrigerator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School_attendence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School_zone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seprate_dining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sqft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sterling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timber_ridge_apt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Townhouse_condo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Walk_bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wood_burning_fireplace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#balcony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bath_full"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bath_sqft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#baths_timber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bayonet_apartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beds_bath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beds_baths"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cathedral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#central_heating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#corner_condo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dishwasher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dryer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#express_commuter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#extra_storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fireplace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#garage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#garbage_disposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gardern_floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#great_community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#great_kitchen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hollygroove_apartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#home_warranty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#large_bedroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_view"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#master_bath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#microwave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multiple_bathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#network_size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#orchard_hill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rent_estimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sale_beds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#school_district"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stainless_steel_appliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#top_gas_cooking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#updated_bath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#walking_closet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_heater_electric"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Near_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBedroom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_types"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bedroom"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aldie"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appliances"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apt_britney_elyse"/>
+        <Class IRI="#Centreville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ashburn"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balcony"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Leesburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baths"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bedrooms"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bristow"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centreville"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clifton"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Close_shopping"/>
+        <Class IRI="#Leesburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commute"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricity_Rate"/>
+        <Class IRI="#Sterling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elevator"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elevator_Access"/>
+        <Class IRI="#Herndon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Features"/>
+        <Class IRI="#Condo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gainesville"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garage"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garage_condo"/>
+        <Class IRI="#Herndon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat_pump"/>
+        <Class IRI="#Sterling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herndon"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jacuzzi"/>
+        <Class IRI="#Clifton"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leesburg"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Condo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manassas"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Master_bedroom"/>
+        <Class IRI="#Ashburn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middleburg"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Light"/>
+        <Class IRI="#Leesburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pool"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pool"/>
+        <Class IRI="#Leesburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refrigerator"/>
+        <Class IRI="#Gainesville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School_attendence"/>
+        <Class IRI="#Ashburn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School_zone"/>
+        <Class IRI="#Manassas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seprate_dining"/>
+        <Class IRI="#Herndon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sqft"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sterling"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <Class IRI="#Leesburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timber_ridge_apt"/>
+        <Class IRI="#Ashburn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Townhouse_condo"/>
+        <Class IRI="#Clifton"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk_bus"/>
+        <Class IRI="#Leesburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wood_burning_fireplace"/>
+        <Class IRI="#Leesburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#balcony"/>
+        <Class IRI="#Herndon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bath_full"/>
+        <Class IRI="#Clifton"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bath_sqft"/>
+        <Class IRI="#Centreville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#baths_timber"/>
+        <Class IRI="#Ashburn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bayonet_apartment"/>
+        <Class IRI="#Manassas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beds_bath"/>
+        <Class IRI="#Manassas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beds_baths"/>
+        <Class IRI="#Centreville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cathedral"/>
+        <Class IRI="#Aldie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#central_heating"/>
+        <Class IRI="#Sterling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#corner_condo"/>
+        <Class IRI="#Aldie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dishwasher"/>
+        <Class IRI="#Bristow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dryer"/>
+        <Class IRI="#Bristow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#express_commuter"/>
+        <Class IRI="#Middleburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#extra_storage"/>
+        <Class IRI="#Gainesville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fireplace"/>
+        <Class IRI="#Aldie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fireplace"/>
+        <Class IRI="#Gainesville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#garage"/>
+        <Class IRI="#Manassas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#garbage_disposal"/>
+        <Class IRI="#Bristow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gardern_floor"/>
+        <Class IRI="#Middleburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#great_community"/>
+        <Class IRI="#Sterling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#great_kitchen"/>
+        <Class IRI="#Middleburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hollygroove_apartment"/>
+        <Class IRI="#Centreville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#home_warranty"/>
+        <Class IRI="#Gainesville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#large_bedroom"/>
+        <Class IRI="#Middleburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low_view"/>
+        <Class IRI="#Aldie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#master_bath"/>
+        <Class IRI="#Bristow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#microwave"/>
+        <Class IRI="#Bristow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multiple_bathroom"/>
+        <Class IRI="#Gainesville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#network_size"/>
+        <Class IRI="#Aldie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orchard_hill"/>
+        <Class IRI="#Clifton"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rent_estimate"/>
+        <Class IRI="#Centreville"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sale_beds"/>
+        <Class IRI="#Manassas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#school_district"/>
+        <Class IRI="#Ashburn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shower"/>
+        <Class IRI="#Manassas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stainless_steel_appliance"/>
+        <Class IRI="#Middleburg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#top_gas_cooking"/>
+        <Class IRI="#Herndon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#updated_bath"/>
+        <Class IRI="#Sterling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#walking_closet"/>
+        <Class IRI="#Bristow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_heater_electric"/>
+        <Class IRI="#Clifton"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Appliances"/>
+        <Class IRI="#Balcony"/>
+        <Class IRI="#Baths"/>
+        <Class IRI="#Bedrooms"/>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Community"/>
+        <Class IRI="#Commute"/>
+        <Class IRI="#Elevator"/>
+        <Class IRI="#Floor"/>
+        <Class IRI="#Garage"/>
+        <Class IRI="#Pool"/>
+        <Class IRI="#School"/>
+        <Class IRI="#Shop"/>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Sqft"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Apt_britney_elyse"/>
+        <Class IRI="#bath_sqft"/>
+        <Class IRI="#beds_baths"/>
+        <Class IRI="#hollygroove_apartment"/>
+        <Class IRI="#rent_estimate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Close_shopping"/>
+        <Class IRI="#Natural_Light"/>
+        <Class IRI="#Pool"/>
+        <Class IRI="#Tennis"/>
+        <Class IRI="#Walk_bus"/>
+        <Class IRI="#Wood_burning_fireplace"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Electricity_Rate"/>
+        <Class IRI="#Heat_pump"/>
+        <Class IRI="#central_heating"/>
+        <Class IRI="#great_community"/>
+        <Class IRI="#updated_bath"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Elevator_Access"/>
+        <Class IRI="#Garage_condo"/>
+        <Class IRI="#Seprate_dining"/>
+        <Class IRI="#balcony"/>
+        <Class IRI="#top_gas_cooking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Jacuzzi"/>
+        <Class IRI="#Townhouse_condo"/>
+        <Class IRI="#bath_full"/>
+        <Class IRI="#orchard_hill"/>
+        <Class IRI="#water_heater_electric"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Refrigerator"/>
+        <Class IRI="#extra_storage"/>
+        <Class IRI="#fireplace"/>
+        <Class IRI="#home_warranty"/>
+        <Class IRI="#multiple_bathroom"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#School_zone"/>
+        <Class IRI="#bayonet_apartment"/>
+        <Class IRI="#beds_bath"/>
+        <Class IRI="#garage"/>
+        <Class IRI="#sale_beds"/>
+        <Class IRI="#shower"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cathedral"/>
+        <Class IRI="#corner_condo"/>
+        <Class IRI="#fireplace"/>
+        <Class IRI="#low_view"/>
+        <Class IRI="#network_size"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#dishwasher"/>
+        <Class IRI="#dryer"/>
+        <Class IRI="#garbage_disposal"/>
+        <Class IRI="#master_bath"/>
+        <Class IRI="#microwave"/>
+        <Class IRI="#walking_closet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#express_commuter"/>
+        <Class IRI="#gardern_floor"/>
+        <Class IRI="#great_kitchen"/>
+        <Class IRI="#large_bedroom"/>
+        <Class IRI="#stainless_steel_appliance"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Near_to"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBedroom"/>
+        <Class IRI="#Ashburn"/>
+    </ObjectPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal>Different Locations Assciated with Condos</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
